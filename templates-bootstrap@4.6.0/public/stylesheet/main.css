@@ -1,0 +1,280 @@
+body {
+  background-color: #f1f1f1;
+  color: #151515;
+}
+.topBtn {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  opacity: 0.7;
+  background-color: red;
+  text-align: center;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.topBtn:hover {
+  /*background-color: #555;*/
+  opacity: 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Header and Navbar
+------------------------- */
+.main-niaid-header {
+	background-color: #20558A;/* fff */
+	margin-top: 0px;
+	padding-left: 0px;
+  padding-right: 0px;
+  margin-bottom: 20px;
+}
+
+.brand-logo{
+    /* padding-bottom: 30px; */
+    /* width: 50px; */
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.top-bar {
+/* background-color: #212463; */
+border: 0;
+border-bottom: 1px dotted #fff;
+
+}
+
+.top-bar .btn {
+  font-size: 12px;
+  letter-spacing: 1px;
+  /*color: #323a45;*/
+  padding-left: 20px;
+  padding-right: 24px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.top-bar .btn-link:hover,
+.top-bar .btn-link:focus {
+  /*color: #323a45;*/
+  text-decoration: none;
+  background-color: transparent;
+  outline: 0;
+  transition: all 0.2s;
+}
+.navbar {
+  position: relative;
+  min-height: auto;
+  margin-bottom: 0px;
+  border: none;
+  /* border-bottom: 1px dotted #555; */
+  border-radius: 0px;
+  /*background-color: #151515; BLACK HEADER */
+  background-color: #20558A ; /*005295 #2878C8 BLUE HEADER */
+}
+.navbar {
+  padding: .0rem 1rem .0rem;
+  }
+.nephele-logotype {
+	/* font-size: 18px; */
+	font-weight: bold;
+	text-transform: uppercase;
+	/* color: #ff0000;  RED HEADER */
+   color: #ffffff;  /* WHITE NAME */
+
+}
+
+.nephele-tagline {
+  font-size: 18px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.nbp-links {
+  margin-top: 10px;
+  /*padding-top: 10px;*/
+  font-size: 14px;
+  color: #ffffff;
+  /*line-height: 2;*/
+}
+
+.nbp-links:hover,
+.nbp-links:focus {
+  color: #ffffff;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+
+/* ------------------------- */
+
+
+/* main niaid footer
+------------------------- */
+.main-niaid-footer {
+	background-color: #20558A;/
+	margin-top: 0px;
+	padding-bottom: 100px;
+	padding-top: 60px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.footer-links-heading {
+	font-weight: bold;
+	text-transform: uppercase;
+  color: #fff;
+}
+
+.footer-nih-tagline{
+  font-size: 12px;
+  color: #fff;
+}
+
+.footer-links {
+	font-size: 14px;
+	color: #fff;
+	line-height: 2;
+  opacity: 0.7;
+}
+
+.footer-links:hover,
+.footer-links:focus {
+	color: #fff;
+	text-decoration: none;
+  opacity: 1;
+}
+
+.footer-address {
+	font-size: 12px;
+	color: #fff;/*151515*/
+}
+
+.footer-columns-separator {
+	border-top: 1px solid transparent;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.sidebar-column-separator {
+	border-top: 1px solid #000;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.footer-col-hr {
+  border-top: 1px dotted #fff;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+@media (min-width: 768px) {
+
+  .navbar-right {
+    float: right!important;
+    margin-right: -15px;
+    padding-top: 29px;
+   }
+
+}
+
+@media (max-width: 780px) {
+  .alingment-center-footer {
+   text-align: center;
+  }
+
+}
+
+@media (max-width: 625px) {
+
+  .navbar {
+  position: relative;
+  min-height: 130px;
+  margin-bottom: 0px;
+  border: none;
+  border-radius: 0px;
+  background-color: #20558A ;
+}
+}
+
+@media (max-width: 405px) {
+  .nephele-logotype{
+    font-size: 16px;
+  }
+}
+
+/* HOME page
+-------------------------------------------------- */
+.text-content{
+  margin-bottom: 10px;
+  padding-top: 15px;
+  font-size: 19px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+.hr-solid{
+  border-top: 1px solid #000;
+}
+.rounded-circle {
+  border-radius: 50%!important;
+}
+.img-effect{
+  width: 125px;
+  height: 125px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.img-effect:hover {
+  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+  -moz-transform: scale(1.3);
+  -ms-transform: scale(1.3);
+  -o-transform: scale(1.3);
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.16);
+  }
+.consultants{
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 0px;
+  background-color: transparent;
+
+}
+.bottom-space{
+  margin-bottom: 20px;
+}
+.all-links {
+  border-radius: 40px;
+  color: #337ab7;
+}
+.all-links:hover, .group-link:focus {
+  text-decoration: none;
+  background-color: transparent;
+  }
+.btn-links {
+  border-radius: 26px;
+  border-color: #20558A;
+  color: #20558A;
+}
+.btn-links:hover, .btn-links:active {
+  background-color: #20558A;
+  color: #fff;
+}
+
+
+/* PUBLICATIONS page
+-------------------------------------------------- */
+tr.spaceUnder>td{
+  padding-bottom: 1em;
+}
